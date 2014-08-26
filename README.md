@@ -2,7 +2,7 @@
 
 ## sponsor
 
-This project was made possible by the wonderful people at [Tweaklab](www.tweaklab.ch).
+This project was made possible by the wonderful people at [Tweaklab](http://www.tweaklab.ch).
 
 ## installation
 
