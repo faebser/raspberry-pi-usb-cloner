@@ -49,12 +49,17 @@ done
 * change the line
 ``` python 
 run(host='0.0.0.0', port=8080, reloader=False)
-``` in cloner.py to 
+``` 
+in cloner.py to 
 ``` python 
 run(host='0.0.0.0', port=80, reloader=False)
 ```
 * follow the instructions above
 
 ## usage
+
+* point your browser to the configured ip and port of your raspberry
+* select the source/master
+* press the clone and clone away
 
 ## screenshots
