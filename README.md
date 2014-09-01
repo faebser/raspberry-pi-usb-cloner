@@ -46,7 +46,13 @@ done
 ### run cloner on port 80
 
 * remove apache with `sudo apt-get install apache2`
-* change the line `run(host='0.0.0.0', port=8080, reloader=False)` in cloner.py to `run(host='0.0.0.0', port=80, reloader=False)`
+* change the line
+``` python 
+run(host='0.0.0.0', port=8080, reloader=False)
+``` in cloner.py to 
+``` python 
+run(host='0.0.0.0', port=80, reloader=False)
+```
 * follow the instructions above
 
 ## usage
