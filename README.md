@@ -8,9 +8,9 @@ This project was made possible by the people at [Tweaklab](http://www.tweaklab.c
 
 ### simple
 
-* ssh into your raspberry
+* ssh onto your raspberry
 * `git clone https://github.com/faebser/raspberry-pi-usb-cloner.git`
-* make sure that cloner.py and usb.sh is executable
+* make sure that cloner.py and usb.sh are set executable (`chmod +x `)
 * `python cloner.py` to run the app
 * navigate your browser to the ip of your raspi, the default port is 8080
 
@@ -18,7 +18,7 @@ This project was made possible by the people at [Tweaklab](http://www.tweaklab.c
 
 * ssh into your raspberry
 * `git clone https://github.com/faebser/raspberry-pi-usb-cloner.git`
-* make sure that cloner.py and usb.sh is executable
+* make sure that cloner.py and usb.sh are set executable (`chmod +x `)
 * in the home directory create a file run.sh with the following content 
 ```bash
 #!/bin/bash
@@ -40,12 +40,12 @@ sh -c "python cloner.py"
 sleep 3
 done
 ```
-* edit your .bashrc and add `./run.sh`
+* edit your ~/.bashrc and add `./run.sh`
 * reboot
 
 ### run cloner on port 80
 
-* remove apache with `sudo apt-get install apache2`
+* remove apache with `sudo apt-get remove apache2`
 * change the line
 ``` python 
 run(host='0.0.0.0', port=8080, reloader=False)
@@ -58,7 +58,7 @@ run(host='0.0.0.0', port=80, reloader=False)
 
 ## usage
 
-* point your browser to the configured ip and port of your raspberry
+* point your browser to the configured ip and port of your raspberry (eg: 192.169.1.23:8080)
 * select the source/master
 * press the clone button and clone away
 
