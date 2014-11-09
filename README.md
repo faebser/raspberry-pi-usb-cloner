@@ -11,7 +11,7 @@ This project was made possible by the people at [Tweaklab](http://www.tweaklab.c
 * ssh onto your raspberry
 * `git clone https://github.com/faebser/raspberry-pi-usb-cloner.git`
 * make sure that cloner.py and usb.sh are set executable (`chmod +x `)
-* `python cloner.py` to run the app
+* `sudo python cloner.py` to run the app
 * navigate your browser to the ip of your raspi, the default port is 8080
 
 ### run on startup
