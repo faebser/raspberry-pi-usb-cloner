@@ -61,5 +61,3 @@ run(host='0.0.0.0', port=80, reloader=False)
 * point your browser to the configured ip and port of your raspberry (eg: 192.169.1.23:8080)
 * select the source/master
 * press the clone button and clone away
-
-## screenshots
